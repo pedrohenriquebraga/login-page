@@ -7,7 +7,11 @@ Tive essa idéia depois de terminar a **[NLW](https://github.com/pedrohenriquebr
 Nesse projeto, usei **Javascript(HTML/CSS)**, **NodeJs(NunJucks/SQLite3/Express)** e também foi usado o **Nodemon** para fazer o *autorefresh* da página, porém é só uma dependência de desenvolvimento. Eu pensei em usar outros módulos, porém, vi que o protejo já estava ficando bem grande, então decidi parar, já que eu tinha criado tudo que era planejado no começo do projeto.
 
 ## ❓ O que o site pode fazer?
-O site foi protejo para ter 3 telas, a primeira é para **fazer o login do usuário**, a segunda é para **cadastrar uma nova conta** e a terceira é para **página para sucesso no login**. Na página de cadastro, foi adicionado algumas verificação especial, para maior segurança do sistema, ao se cadastrar não é possível criar **duas contas** com o mesmo email, isso impede que exista contas duplicadas no banco de dados, tornando a verificação no backend **insegura**. Também foi adicionado ao formulário um campo onde o usuário deve confirmar a senha desejada, caso a senha não conhecida com a confirmação é impossível prosseguir. Isso impede que usuários digitem senhas erradas nos formulários **acidentalmente**.
+O site foi protejo para ter 3 telas, a primeira é para **fazer o login do usuário**, a segunda é para **cadastrar uma nova conta** e a terceira é para **página para sucesso no login**. 
+
+Na página de cadastro, foi adicionado algumas verificação especial, para maior segurança do sistema, ao se cadastrar não é possível criar **duas contas** com o mesmo email, isso impede que exista contas duplicadas no banco de dados, tornando a verificação no backend **insegura**. 
+
+Também foi adicionado ao formulário um campo onde o usuário deve confirmar a senha desejada, caso a senha não conhecida com a confirmação é impossível prosseguir. Isso impede que usuários digitem senhas erradas nos formulários **acidentalmente**.
 
 ![Página de Login](https://i.ibb.co/xgtLzmP/login-page.png)
 
