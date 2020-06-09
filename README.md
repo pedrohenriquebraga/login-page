@@ -9,6 +9,10 @@ Nesse projeto, usei **Javascript(HTML/CSS)**, **NodeJs(NunJucks/SQLite3/Express)
 ## ❓ O que o site pode fazer?
 O site foi protejo para ter 3 telas, a primeira é para **fazer o login do usuário**, a segunda é para **cadastrar uma nova conta** e a terceira é para **página para sucesso no login**. Na página de cadastro, foi adicionado algumas verificação especial, para maior segurança do sistema, ao se cadastrar não é possível criar **duas contas** com o mesmo email, isso impede que exista contas duplicadas no banco de dados, tornando a verificação no backend **insegura**. Também foi adicionado ao formulário um campo onde o usuário deve confirmar a senha desejada, caso a senha não conhecida com a confirmação é impossível prosseguir. Isso impede que usuários digitem senhas erradas nos formulários **acidentalmente**.
 
+![Página de Login](https://i.ibb.co/xgtLzmP/login-page.png)
+
+![Página de Cadastro](https://i.ibb.co/JcM05yF/create-account.png)
+
 ## 💻 Como testar o site?
 No momento, não fiz o *deploy* do site, mas você pode testar o site seguindo alguns passos simples:
 
