@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="/styles/create-account.css">
+</head>
+<body>
+    <div class="box">
+        <div class="model">
+            <h1>Crie sua conta</h1>
+            <form action="/created-account" method="POST">
+                <p hidden>As senhas não se conhecidem!!</p>
+                <label for="email">Crie um Email</label>
+                <input type="email" name="email" class="login" autocomplete="email" required autofocus>
+    
+                <label for="password">Crie uma Senha</label>
+                <input type="password" name="password" class="login" placeholder="Entre 8 e 20 caracteres" required minlength="8" maxlength="20" autocomplete="new-password">
+
+                <label for="password">Confirme a Senha</label>
+                <input type="password" name="password" class="login" placeholder="Entre 8 e 20 caracteres" required minlength="8" maxlength="20" autocomplete="new-password" onkeyup="verifyPassword()" >
+    
+                <button >Criar Conta</button>
+
+                <a href="/">Fazer Login</a>
+        </div>
+        </form>
+    </div>
+
+    {% if saved == 'unavailable' %}
+        {%include "partials/create-account/unavailable-created-account.html"%}
+    {% elif saved %}
+        {%include "partials/create-account/created-account.html"%}
+    {% elif saved === false %}
+        {%include "partials/create-account/error-created-account.html"%}
+    {% endif %}
+    
+    <script src="/scripts/create-account.js"></script>
+</body>
+</html>

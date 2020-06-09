@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login Page</title>
+        <link rel="stylesheet" href="/styles/style.css">
+        <link rel="stylesheet" href="/styles/error-login.css">
+
+    </head>
+    <body>
+        <div class="box">
+            <div class="model">
+                <h1>Acesse sua conta</h1>
+                <form action="/congratulation" method="POST">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" class="login" required="required" autocaptilize="lowCase" autocomplete="off" autofocus="autofocus">
+
+                    <label for="password">Senha</label>
+                    <input type="password" name="password" class="login" placeholder="Entre 8 e 20 caracteres" required="required" minlength="8" maxlength="20">
+
+                    <button>Acessar</button>
+
+                    <a href="/new-account">Criar uma nova conta</a>
+                </div>
+            </form>
+        </div>
+        {% if login == false %}
+            <div class="error">
+                <span><img src="/assets/x.png" alt=""></span>
+                <h1>Email ou Senha incorreta!!</h1>
+                <script>
+                    setTimeout(() => {
+                        window.location = '/'
+                    }, 2000)
+                </script>
+            </div>
+        {% endif %}
+    </body>
+</html>

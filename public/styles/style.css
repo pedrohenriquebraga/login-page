@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: white;
+    background: linear-gradient(rgb(2, 2, 32), rgb(10, 10, 32))
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 97vh;
+}
+
+.box .model form {
+    display: flex;
+    flex-direction: column;
+}
+
+.box .model form input {
+    font-size: 16px;
+    width: 300px;
+    padding: 7px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.box .model form button {
+    padding: 7px;
+    width: 320px;
+    background-color: rgb(69, 69, 243);
+    color: white;
+    font-weight: bold;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: none;
+    transition-duration: 500ms;
+}
+
+.box .model form button:hover {
+    background-color: rgb(50, 50, 180);
+}
+
+.box .model h1 {
+    font-size: 30px;
+}
+
+.box .model form a {
+    display: flex;
+    color: white;
+    text-decoration: none;
+    margin-top: 20px;
+    font-weight: 500;
+    flex: 1;
+    margin-top: 50px;
+}
+
+.box .model form a:hover {
+    text-decoration: underline;
+}
+
+.box .model {
+    background-color: rgb(43, 40, 40);
+    width: 320px;
+    height: 360px;
+    padding: 40px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.complete {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 0;
+    overflow: hidden;
+    animation-name: complete;
+    animation-duration: 1.5s;
+}
+
+.complete img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: -10px;
+}
+
+.complete h1 {
+    font-size: 45px;
+}
+
+@keyframes complete {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

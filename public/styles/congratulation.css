@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(rgb(2, 2, 32), rgb(10, 10, 32));
+    color: white;
+}
+
+iframe {
+    display: inline;
+    align-content: center;
+    border: 3px solid white;
+    border-radius: 10px;
+}
+
+p, h1 {
+    margin: 5px;
+}
+

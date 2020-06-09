@@ -1,0 +1,36 @@
+.error {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.63);
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    padding: 0;
+    overflow: hidden;
+    animation-name: error;
+    animation-duration: 1.5s;
+}
+
+.error img {
+    width: 70px;
+    height: 70px;
+    margin-bottom: -10px;
+}
+
+.error h1 {
+    font-size: 45px;
+}
+
+@keyframes error {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
