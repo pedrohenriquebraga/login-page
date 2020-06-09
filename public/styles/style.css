@@ -28,6 +28,10 @@ body {
     align-content: center;
 }
 
+.box .model form #email {
+    text-transform: lowercase;
+}
+
 .box .model form button {
     padding: 7px;
     width: 320px;

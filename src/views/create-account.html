@@ -13,13 +13,13 @@
             <form action="/created-account" method="POST">
                 <p hidden>As senhas não se conhecidem!!</p>
                 <label for="email">Crie um Email</label>
-                <input type="email" name="email" class="login" autocomplete="email" required autofocus>
+                <input type="email" name="email" class="login" autocomplete="email" id="email" required autofocus>
     
                 <label for="password">Crie uma Senha</label>
                 <input type="password" name="password" class="login" placeholder="Entre 8 e 20 caracteres" required minlength="8" maxlength="20" autocomplete="new-password">
 
                 <label for="password">Confirme a Senha</label>
-                <input type="password" name="password" class="login" placeholder="Entre 8 e 20 caracteres" required minlength="8" maxlength="20" autocomplete="new-password" onkeyup="verifyPassword()" >
+                <input type="password" name="password" class="login" placeholder="Confirme sua senha" required minlength="8" maxlength="20" autocomplete="new-password" onkeyup="verifyPassword()" >
     
                 <button >Criar Conta</button>
 

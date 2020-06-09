@@ -31,7 +31,7 @@ server.post("/created-account", (req, res) => {
 `
 
     const body = req.body
-    const values = [body.email, body.password[0]]
+    const values = [body.email , body.password[0]]
 
     function afterInsertData(err) {
         if (err) {
