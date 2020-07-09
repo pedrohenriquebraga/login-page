@@ -18,7 +18,7 @@ Também foi adicionado ao formulário um campo onde o usuário deve confirmar a 
 ![Página de Cadastro](https://i.ibb.co/JcM05yF/create-account.png)
 
 ## 💻 Como testar o site?
-No momento, não fiz o *deploy* do site, mas você pode testar o site seguindo alguns passos simples:
+Você pode testar o site seguindo alguns passos simples e também acessando [este link](https://project-login.glitch.me/):
 
 1. Clone este repositório.
 2. Baixe o **[NodeJs](https://nodejs.org)** em sua máquina.
